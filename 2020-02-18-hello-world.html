@@ -165,6 +165,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="source/js/md5.min.js"></script>
 <div class='container' id="gitalk-container"></div>
 <script>
     var gitalk = new Gitalk({
@@ -173,7 +174,7 @@
         repo: 'cmet',
         owner: 'm3blog',
         admin: ['momoNorthy']
-	id: '{{ page.url | truncate: 50, '' }}'
+	id: Tue Feb 18 2020 08:33:29 GMT+0800,
         distractionFreeMode: true,
     })
     gitalk.render('gitalk-container')
