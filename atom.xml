@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>独玖-</title>
+  
+  <subtitle>:)独自走过玖月的我</subtitle>
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://m3blog.github.io/blog/"/>
+  <updated>2020-02-18T01:24:01.000Z</updated>
+  <id>https://m3blog.github.io/blog/</id>
+  
+  <author>
+    <name>独玖-</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>图床的选择与使用</title>
+    <link href="https://m3blog.github.io/blog/2020-02-18-luguotuchuang.html"/>
+    <id>https://m3blog.github.io/blog/2020-02-18-luguotuchuang.html</id>
+    <published>2020-02-18T01:24:01.000Z</published>
+    <updated>2020-02-18T01:24:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家有用过hexo/Jekyll吗？有不想插入图片的经历吗？今天独玖就给你们推荐几款常用</p><p>的图床set！</p><p>. Github</p><p>  作为Microsoft出身的Github，当仁不让！</p><p>  <img src="https://s2.ax1x.com/2020/02/18/3iXAqH.png" alt="无法显示"></p><p>  优点：图片不易丢失。</p><p>  缺点：太慢，容易图裂。</p><p>. Gitee/Coding</p><p>  它们俩全部都是国内的托管平台。速度快！！</p><p>  放一张图片给你们Look,这是Gitee.</p><p>  <img src="https://s2.ax1x.com/2020/02/18/3iX0QU.png" alt="无法显示"></p><p>  优点：速度快。</p><p>  缺点（怪怪的）：还是容易图裂。</p><p>. iPic</p><p>  这个就不放图了，这个还好的，用Mac的强推！</p><p>  优点：十分好，不易图裂。</p><p>  缺点：只能在MAC电脑使用。</p><p>. 路过图床</p><p>  这个很爽，不用注册，支持复制！</p><p>  可以为你自动生成Markdown代码插入，Beautiful.</p><p>  <img src="https://s2.ax1x.com/2020/02/18/3iXfSK.png" alt="3iXfSK.png"><br>. 总结</p><p>  图床繁多，我爱路过。:)</p><p>动动手把这个网址转发一下: <a href="https://m3blog.github.io/blog">我的博客</a></p><p><img src="https://s2.ax1x.com/2020/02/18/3iqdzD.jpg" alt="无法显示"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;大家有用过hexo/Jekyll吗？有不想插入图片的经历吗？今天独玖就给你们推荐几款常用&lt;/p&gt;
+&lt;p&gt;的图床set！&lt;/p&gt;
+&lt;p&gt;. Github&lt;/p&gt;
+&lt;p&gt;  作为Microsoft出身的Github，当仁不让！&lt;/p&gt;
+&lt;p&gt;  &lt;img src=&quot;https:
+      
+    
+    </summary>
+    
+    
+      <category term="经验" scheme="https://m3blog.github.io/blog/categories/%E7%BB%8F%E9%AA%8C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://m3blog.github.io/blog/2020-02-18-hello-world.html"/>
+    <id>https://m3blog.github.io/blog/2020-02-18-hello-world.html</id>
+    <published>2020-02-18T00:33:29.934Z</published>
+    <updated>2020-02-18T00:33:29.934Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
