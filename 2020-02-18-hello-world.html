@@ -55,7 +55,7 @@
 
       <ul class="navbar-nav float-left">
         
-        <li><a href="/blog/archives">Archives</a></li>
+        <li><a href="/blog/archives">Article</a></li>
         
         
         <li><a href="/blog/categories">Categories</a></li>
@@ -64,8 +64,9 @@
         <li><a href="/blog/tags">Tags</a></li>
         
         
-        <li class="desktop-only"><a href="/blog/atom.xml" target="_blank">RSS</a></li>
+        <li class="desktop-only"><a href="/blog/atom.xml" target="_blank">Atom</a></li>
         
+	<li><a href="/blog/2020-02-18-updation.html" target="_blank">Post Update Log<a></li>
       </ul>
 
       <ul class="navbar-nav user-nav float-right desktop-only">
@@ -83,6 +84,8 @@
   </div>
 </nav>
 
+
+
 <div class="main-container">
   <header class="header-wrapper desktop-only">
   <div class="container header-site-detail">
@@ -91,7 +94,7 @@
         <a href="/blog/archives" class="header-toolbar-left"><i
                   class="fa fa-file-text"></i> Posts </a>
         <a href="/blog/archives"
-           class="header-toolbar-right"> 2 </a>
+           class="header-toolbar-right"> 3 </a>
       </li>
       <li>
         <a href="/blog/tags" class="header-toolbar-left"><i
@@ -153,11 +156,28 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
+    <center><img clas="avatar" src="https://s2.ax1x.com/2020/02/18/3iqdzD.jpg" /></center>
+    <center>转发一下就是爱 ~~ https://m3blog.github.io/blog</center>
+
   </article>
 </div>
 
 
-    
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<div class='container' id="gitalk-container"></div>
+<script>
+    var gitalk = new Gitalk({
+        clientID: 'eff137fd5ee7db7ffaa8',
+        clientSecret: '79df01ff71db62d2ebcc02fb549cfe547012b5e7',
+        repo: 'cmet',
+        owner: 'm3blog',
+        admin: ['momoNorthy'],
+        distractionFreeMode: true,
+    })
+    gitalk.render('gitalk-container')
+</script>
+
 
 
 
