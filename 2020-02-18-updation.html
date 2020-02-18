@@ -162,7 +162,8 @@
         clientSecret: '79df01ff71db62d2ebcc02fb549cfe547012b5e7',
         repo: 'cmet',
         owner: 'm3blog',
-        admin: ['momoNorthy'],
+        admin: ['momoNorthy']
+	id: '{{ page.url | truncate: 50, '' }}'
         distractionFreeMode: true,
     })
     gitalk.render('gitalk-container')
