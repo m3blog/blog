@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://m3blog.github.io/blog/"/>
-  <updated>2020-02-18T02:37:03.000Z</updated>
+  <updated>2020-02-19T02:52:33.000Z</updated>
   <id>https://m3blog.github.io/blog/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Love Past and Future(LPaF)搭建中……</title>
+    <link href="https://m3blog.github.io/blog/2020-02-19-lpaf-develop-md.html"/>
+    <id>https://m3blog.github.io/blog/2020-02-19-lpaf-develop-md.html</id>
+    <published>2020-02-19T02:52:33.000Z</published>
+    <updated>2020-02-19T02:52:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>  今天继续写LPaF。在第一次单元测试中发现一个小小bug.你们可以看一看。</p><p><img src="https://s2.ax1x.com/2020/02/19/3E9KiD.png" alt="3E9KiD.png"></p><p>就一个cin.get加一个return0;我的速度已经十分快了，不过按了好几次enter才ok，用了两</p><p>秒。</p><p>  Bug已修复，也不知道是什么回事！再编译一次就可以了。这个bug我把它叫做0x019.好了</p><p>继续写！！</p><p>  对于模板，我还是不太愿意。所以我用了vector存储。</p><p>  <img src="https://s2.ax1x.com/2020/02/19/3ECy1H.png" alt="3ECy1H.png"></p><p>  哦，忘了要引用一下（性能！！！）</p><p>  一开始感觉要加个count，后来一想可以用vector::size(),就取消了这个变量。</p><p>  我想用getch函数干一个menu,体验可以滴~于是算了算，<strong>ASCII-48=数字。</strong></p><p>希望这个公式能被我记住。。。</p><p>  <a href="https://pic.downk.cc/item/5e4cc25948b86553ee866905.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e4cc25948b86553ee866905.jpg" alt=""></a></p><p>  干了一会儿把换行全嫩成了LF（这样舒服）！留下快捷键（是我自己配制的）：ctrl+L</p><p>是显示换行符，ctrl+U:统一换行符 ctrl+Y:换成LF。所以就可以CTRL+L-&gt;+Y-+U.一般人我不告诉他！</p><p>  上面那张是我的Functions::readValue().</p><p>  <strong>开发软件的心态是：先设计一个class，这个class需要另一个class的支持，那就先写另一个class……一直到开发完毕。</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;  今天继续写LPaF。在第一次单元测试中发现一个小小bug.你们可以看一看。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://s2.ax1x.com/2020/02/19/3E9KiD.png&quot; alt=&quot;3E9KiD.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;就一个cin.get加一
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="https://m3blog.github.io/blog/categories/C/"/>
+    
+    
+      <category term="lpaf" scheme="https://m3blog.github.io/blog/tags/lpaf/"/>
+    
+  </entry>
   
   <entry>
     <title>网站更新日志</title>
