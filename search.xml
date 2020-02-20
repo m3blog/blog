@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Love Past and Future(LPaF)搭建中……</title>
+      <link href="/blog/2020-02-19-lpaf-develop-md.html"/>
+      <url>/blog/2020-02-19-lpaf-develop-md.html</url>
+      
+        <content type="html"><![CDATA[<p>  今天继续写LPaF。在第一次单元测试中发现一个小小bug.你们可以看一看。</p><p><img src="https://s2.ax1x.com/2020/02/19/3E9KiD.png" alt="3E9KiD.png"></p><p>就一个cin.get加一个return0;我的速度已经十分快了，不过按了好几次enter才ok，用了两</p><p>秒。</p><p>  Bug已修复，也不知道是什么回事！再编译一次就可以了。这个bug我把它叫做0x019.好了</p><p>继续写！！</p><p>  对于模板，我还是不太愿意。所以我用了vector存储。</p><p>  <img src="https://s2.ax1x.com/2020/02/19/3ECy1H.png" alt="3ECy1H.png"></p><p>  哦，忘了要引用一下（性能！！！）</p><p>  一开始感觉要加个count，后来一想可以用vector::size(),就取消了这个变量。</p><p>  我想用getch函数干一个menu,体验可以滴~于是算了算，<strong>ASCII-48=数字。</strong></p><p>希望这个公式能被我记住。。。</p><p>  <a href="https://pic.downk.cc/item/5e4cc25948b86553ee866905.jpg" target="_blank" rel="noopener"><img src="https://pic.downk.cc/item/5e4cc25948b86553ee866905.jpg" alt=""></a></p><p>  干了一会儿把换行全嫩成了LF（这样舒服）！留下快捷键（是我自己配制的）：ctrl+L</p><p>是显示换行符，ctrl+U:统一换行符 ctrl+Y:换成LF。所以就可以CTRL+L-&gt;+Y-+U.一般人我不告诉他！</p><p>  上面那张是我的Functions::readValue().</p><p>  <strong>开发软件的心态是：先设计一个class，这个class需要另一个class的支持，那就先写另一个class……一直到开发完毕。</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LPaF </tag>
+            
+            <tag> 游戏 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网站更新日志</title>
+      <link href="/blog/2020-02-18-updation.html"/>
+      <url>/blog/2020-02-18-updation.html</url>
+      
+        <content type="html"><![CDATA[<p>上一次更改 2020/2/18 15:47 <!--end--> 使用replica++来部署hexo.<br>2020/2/18 11:12 完成文章底部图像和分享地址。</p><p>Done.</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>图床的选择与使用</title>
+      <link href="/blog/2020-02-18-luguotuchuang.html"/>
+      <url>/blog/2020-02-18-luguotuchuang.html</url>
+      
+        <content type="html"><![CDATA[<p>大家有用过hexo/Jekyll吗？有不想插入图片的经历吗？今天独玖就给你们推荐几款常用</p><p>的图床set！</p><p>. Github</p><p>  作为Microsoft出身的Github，当仁不让！</p><p>  <img src="https://s2.ax1x.com/2020/02/18/3iXAqH.png" alt="无法显示"></p><p>  优点：图片不易丢失。</p><p>  缺点：太慢，容易图裂。</p><p>. Gitee/Coding</p><p>  它们俩全部都是国内的托管平台。速度快！！</p><p>  放一张图片给你们Look,这是Gitee.</p><p>  <img src="https://s2.ax1x.com/2020/02/18/3iX0QU.png" alt="无法显示"></p><p>  优点：速度快。</p><p>  缺点（怪怪的）：还是容易图裂。</p><p>. iPic</p><p>  这个就不放图了，这个还好的，用Mac的强推！</p><p>  优点：十分好，不易图裂。</p><p>  缺点：只能在MAC电脑使用。</p><p>. 路过图床</p><p>  这个很爽，不用注册，支持复制！</p><p>  可以为你自动生成Markdown代码插入，Beautiful.</p><p>  <img src="https://s2.ax1x.com/2020/02/18/3iXfSK.png" alt="3iXfSK.png"><br>. 总结</p><p>  图床繁多，我爱路过。:)</p><p>动动手把这个网址转发一下: <a href="https://m3blog.github.io/blog">我的博客</a></p><p><img src="https://s2.ax1x.com/2020/02/18/3iqdzD.jpg" alt="无法显示"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 经验 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/blog/2020-02-18-hello-world.html"/>
+      <url>/blog/2020-02-18-hello-world.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome <!--end--> to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>!!! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
