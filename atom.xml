@@ -10,7 +10,7 @@
   <id>https://m3blog.github.io/blog/</id>
   
   <author>
-    <name>独玖-</name>
+    <name>Cloud</name>
     
   </author>
   
@@ -37,10 +37,12 @@
     </summary>
     
     
-      <category term="C++" scheme="https://m3blog.github.io/blog/categories/C/"/>
+      <category term="编程" scheme="https://m3blog.github.io/blog/categories/%E7%BC%96%E7%A8%8B/"/>
     
     
-      <category term="lpaf" scheme="https://m3blog.github.io/blog/tags/lpaf/"/>
+      <category term="LPaF" scheme="https://m3blog.github.io/blog/tags/LPaF/"/>
+    
+      <category term="游戏" scheme="https://m3blog.github.io/blog/tags/%E6%B8%B8%E6%88%8F/"/>
     
   </entry>
   
